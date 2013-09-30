@@ -123,6 +123,17 @@ I'm really not sure you would.
 But it may be useful if you want to easily see what the perl lexer/parser is 
 doing as it reads different parts of your source.
 
+Alternatively, in Perl you can:
+
+  BEGIN { study; }
+
+And in gdb:
+
+  (gdb) b Perl_pp_study
+
+However, this doesn't allow you to break inside of if blocks like in the 
+examples above.
+
 =head1 COMPATIBILITY
 
 This module requires at least Perl 5.11.2 because of pluggable keywords. See 
