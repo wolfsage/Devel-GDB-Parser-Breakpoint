@@ -1,7 +1,7 @@
 package Devel::GDB::Parser::Breakpoint;
 
 BEGIN {
-	$Devel::GDB::Parser::Breakpoint::VERSION = '0.01';
+	$Devel::GDB::Parser::Breakpoint::VERSION = '0.02';
 }
 
 use strict;
