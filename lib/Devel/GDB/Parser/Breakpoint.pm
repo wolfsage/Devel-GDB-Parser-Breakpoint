@@ -123,6 +123,11 @@ I'm really not sure you would.
 But it may be useful if you want to easily see what the perl lexer/parser is 
 doing as it reads different parts of your source.
 
+=head1 COMPATIBILITY
+
+This module requires at least Perl 5.11.2 because of pluggable keywords. See 
+L<perlapi/"PL_keyword_plugin"> for more information.
+
 =head1 SEE ALSO
 
 L<Devel::GDB::Breakpoint> - Create easily identifiable runtime gdb breakpoints 

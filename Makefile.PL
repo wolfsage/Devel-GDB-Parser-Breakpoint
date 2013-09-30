@@ -1,4 +1,4 @@
-use 5.006000;
+use 5.011002;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
